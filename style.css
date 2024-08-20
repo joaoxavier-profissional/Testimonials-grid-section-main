@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.attribution {
+    display: none;
+}
+
+@media (max-width: 500px) {
+    body {
+        padding: 2rem;
+        background: hsl(210, 46%, 95%);
+    }
+
+    h1, h2, p, span {
+        font-family: "Barlow Semi Condensed", sans-serif;
+        font-style: normal;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    h1 {
+        font-size: 1.85rem;
+        line-height: 1.15em;
+    }
+
+    .cards {
+        margin-top: 4rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .cards > div {
+        border-radius: 10px;
+        padding: 2rem 2rem 3rem 2rem;
+    }
+
+    .cards > div > p {
+        font-weight: 500;
+        line-height: 1.5em;
+        font-size: 1.15rem;
+    }
+
+    .cards > div > *:not(p) {
+        margin-bottom: 1.5rem;
+    }
+
+    .cards > div > div {
+        display: flex;
+    }
+
+    .cards img {
+        border-radius: 50%;
+        height: 3rem;
+        box-sizing: border-box;
+        border: 2px solid white;
+    }
+
+    .card-1 {
+        background: hsl(263, 55%, 52%);
+    }
+
+    .card-1 h1, h2, span, p {
+        color: white;
+    }
+
+    .card-1 > h1,
+    .card-2 > h1,
+    .card-3 > h1,
+    .card-4 > h1 {
+        font-weight: 500;
+    }
+
+    .card-1 > p,
+    .card-2 > p,
+    .card-3 > p,
+    .card-4 > p {
+        color: rgb(165, 165, 165);
+    }
+
+    .card-2 {
+        background: hsl(217, 19%, 35%);
+    }
+
+    .card-2 > h1 {
+        color: white;
+    }
+
+    .card-3 {
+        background: white;
+    }
+
+    .card-3 h2, 
+    .card-3 h1 {
+        color: hsl(217, 19%, 35%);
+    }
+
+    .card-4 {
+        background: hsl(219, 29%, 14%);
+    }
+
+    .card-4 h2, h1 {
+        color: white;
+    }
+
+    .profile-info > h2 {
+        font-weight: 400;
+    }
+
+    .profile-info > span {
+        color: rgb(165, 165, 165);
+    }
+
+    .profile-info {
+        margin-left: 1rem;
+    }
+}
